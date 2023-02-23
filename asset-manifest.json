@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/landing-page-restaurant/static/css/main.501486d9.css",
+    "main.js": "/landing-page-restaurant/static/js/main.c9d20122.js",
+    "static/media/home-banner-image.png": "/landing-page-restaurant/static/media/home-banner-image.a41849b23e5c36d66717.png",
+    "static/media/about-background-image.png": "/landing-page-restaurant/static/media/about-background-image.d0e45280dd69dec26ee6.png",
+    "static/media/home-banner-background.png": "/landing-page-restaurant/static/media/home-banner-background.585600da7ff85661555e.png",
+    "index.html": "/landing-page-restaurant/index.html",
+    "main.501486d9.css.map": "/landing-page-restaurant/static/css/main.501486d9.css.map",
+    "main.c9d20122.js.map": "/landing-page-restaurant/static/js/main.c9d20122.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.501486d9.css",
+    "static/js/main.c9d20122.js"
+  ]
+}
