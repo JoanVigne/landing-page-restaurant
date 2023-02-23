@@ -1,0 +1,58 @@
+.home {
+    background: url('../assets/home-banner-background.png') no-repeat;
+    background-position: right top;
+    background-size: 50%;
+}
+
+.home main section {
+    margin-top: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.orderNowButton {
+    background-color: orange;
+    border-radius: 40px;
+    color: black;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.orderNowButton img {
+    width: 30px;
+    margin: 0 10px 0 15px;
+}
+
+.containerText {
+    padding: 20px;
+}
+
+.containerImage img {
+    width: 38vw;
+}
+
+.home section:last-child {
+    background: url('../assets/about-background.png') no-repeat;
+    background-position: bottom left rotate(30deg);
+    background-size: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+    .home main section {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .home section:last-child {
+        flex-direction: column-reverse;
+    }
+
+    .containerImage img {
+        width: 300px;
+    }
+
+}

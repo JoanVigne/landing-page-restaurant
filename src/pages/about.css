@@ -1,0 +1,10 @@
+.about {
+    text-align: center;
+    background: url('../assets/home-banner-background.png') no-repeat;
+    background-position: right top;
+    background-size: 50%;
+}
+
+.about main section {
+    margin: 50px;
+}

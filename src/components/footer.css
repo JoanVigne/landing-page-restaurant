@@ -1,0 +1,47 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+    background-color: rgb(243, 243, 243);
+    color: rgb(83, 82, 82);
+}
+
+footer h1 {
+    color: orange;
+}
+
+footer .rdmInfoFooter {
+    display: flex;
+}
+
+footer .rdmInfoFooter nav {
+    padding: 20px;
+}
+
+footer .rdmInfoFooter nav ul li {
+    cursor: pointer;
+}
+
+footer svg {
+    margin: 10px;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+
+    footer {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    footer h1 {
+        display: none;
+    }
+
+    footer .rdmInfoFooter nav {
+        padding: 0;
+    }
+
+}

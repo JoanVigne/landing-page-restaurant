@@ -1,0 +1,44 @@
+.comments {
+    text-align: center;
+    width: 100%;
+    background-color: rgb(243, 243, 243);
+    color: rgb(83, 82, 82);
+}
+
+.comments h2 {
+    color: orange;
+}
+
+.comments section {
+    width: 355px;
+    padding: 50px 100px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.comments .aComment {
+    background-color: white;
+}
+
+.comments .contactMe {
+    width: 100px;
+    margin: auto;
+    padding: 10px 10px 10px 25px;
+    background-color: orange;
+    border-radius: 40px;
+    color: black;
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.comments svg {
+    font-size: x-large;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .comments section {
+        padding: 50px 5px;
+    }
+}
